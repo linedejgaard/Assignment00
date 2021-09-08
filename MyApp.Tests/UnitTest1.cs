@@ -70,5 +70,20 @@ namespace MyApp.Tests
             //Assert
             Assert.Equal(true, isLY);
         }
+
+        [Fact]
+        public void is1600LeapYearString()
+        {
+            /*//Arrange
+            var writer = new StringWriter();
+            Console.SetOut(writer);*/
+            //Act
+            //Assert
+            Assert.Equal("yay", Program.IsLeapYearToString(1600));
+
+        }
     }
+
+    
+
 }
